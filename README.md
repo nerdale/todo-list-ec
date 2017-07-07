@@ -2,7 +2,7 @@
 
 ### El Reto
 
-Desarrollar una lista de tareas donde el usuario pueda agregar tareas y una vez realizadas estas puedan marcarse de alguna manera como lista y puedan ser eliminadas. Todo esto utilizando el patrón de arquitectura de software MVC.
+Desarrollar una lista de tareas donde el usuario pueda agregarlas y una vez realizadas estas puedan marcarse de alguna manera como "ok" y puedan ser eliminadas. Todo esto utilizando el patrón de arquitectura de software MVC.
 
 ### Herramientas utilizadas
 
