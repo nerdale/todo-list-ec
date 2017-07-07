@@ -6,7 +6,7 @@ Desarrollar una lista de tareas donde el usuario pueda agregarlas y una vez real
 
 ### Herramientas utilizadas
 
-+ Para desarrollar nuestro código Javascript se utilizó jQuery `~v.3.2.1`
++ Para desarrollar nuestro código comenzamos utilizando JS nativo, pero luego migramos a jQuery `~v.3.2.1`
 + Para la parte de maquetado se utilizó Materialize como framework de CSS.
 
 
