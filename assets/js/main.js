@@ -21,16 +21,6 @@ class Controller{
 			}
 		}
 	}
-
-	erase(){
-		var self = this;
-		self.view.delete();
-	}
-
-	complet(){
-		var self = this;
-		self.view.completed();
-	}
 }
 
 
@@ -52,7 +42,6 @@ class View{
 	initDelete(){
 		
 		$(document).on('click', '.delete', function(){
-
 			console.log($('.delete').parent());
 			$(this).parent().remove();
 			//$('.delete').find('div').remove();
