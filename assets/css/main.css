@@ -1,0 +1,56 @@
+.tareas{
+	padding-top: 3em;
+}
+nav{
+	background-color: #0F7C9C;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]){
+	border-bottom: 1px solid #0F7C9C;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+	color: #0F7C9C;
+}
+.collection .collection-item.avatar{
+	padding-top: 1.5em;
+}
+#nuevaTarea{
+	padding-top: 0.7em;
+}
+i{
+	cursor: pointer;
+}
+#hechas{
+	background-color: #9DCDC9;
+	margin-top: 3em;
+}
+span{
+	color: #0F7C9C;
+}
+
+/* CSS otros colores */
+.color{
+	background-color: #fb8c00;
+	color: #FFF;
+	display: none;
+	height: 50px;
+}
+button{
+	margin-top: 3em;
+	width: 100%;
+}
+.prueba{
+	margin-top: 2em;
+}
+p{
+	margin-top: 0;
+	padding: 1em;
+}
+
+.cont-foto img{
+	width: 250px;
+	height: 200px;
+}
+
+.color{
+	color: red;
+}

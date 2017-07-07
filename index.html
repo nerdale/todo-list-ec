@@ -2,47 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>ToDo</title>
+	<title>Tasks</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<div class="nav-wrapper">
-				<a href="#" class="brand-logo center">ToDo-List</a>
+	<nav>
+		<div class="nav-wrapper">
+			<div class="container">
+				<a href="#" class="brand-logo center">Tasks</a>
 			</div>
-		</nav>
-	</header>
+		</div>
+	</nav>
 
-	<section class="secc1">
+
+	<section class="tareas">
 		<div class="container">
 			<div class="row">
-				<div class="col offset-s2 s8">
-					<div class="card z-depth-4">
-						<div class="input-field card-content">
-							<div class="card-content">
-								<input placeholder="Ingrese tarea" id="tarea" type="text" class="validate" >
-							</div>
-						</div>
-						<div class="card-content">
-							<h5 class="titulo"><i class="material-icons">list</i>Cosas por hacer</h5>
-							<div id="hacer"></div>
-							
-						</div>
-						<div class="card-content">
-							<h5 class="titulo"><i class="material-icons">done_all</i>Cosas listas</h5>
-							<div id="hechas"></div>
+				<form class="col m12 s12">
+					<div class="row">
+						<div class="input-field col m12 s12">
+							<input id="input_text" type="text" data-length="150">
+							<label for="input_text">Ingrese tarea</label>
 						</div>
 					</div>
+				</form>
+			</div>
+
+			<!-- Contenedor tareas agregadas -->
+			<div class="row">
+				<div class="col m12 s12" id="contenedor">
+					<h5>Tareas Por Hacer</h5>
+				</div>
+			</div>
+
+			<!-- contenedor tareas hechas -->
+			<div class="row">
+				<div class="col m12 s12" id="hechas">
+					<h5>Tareas hechas</h5>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-	<script src="js/app.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
